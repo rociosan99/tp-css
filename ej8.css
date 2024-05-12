@@ -1,0 +1,47 @@
+form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 40px auto; /* Centrar el formulario en la página */
+    padding: 20px; /* Agregar espacio alrededor del contenido del formulario */
+    background-color: #f4f4f4; /* Color de fondo del formulario */
+    border-radius: 8px; /* Bordes redondeados para el formulario */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra sutil para el formulario */
+  }
+  
+  label {
+    display: block; /* Mostrar las etiquetas en una nueva línea */
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+    font-weight: bold; /* Texto de las etiquetas en negrita */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* Ancho completo para los campos de entrada y textarea */
+    padding: 10px; /* Agregar espacio alrededor del texto dentro de los campos */
+    border: 1px solid #ccc; /* Borde gris claro para los campos */
+    border-radius: 4px; /* Bordes redondeados para los campos */
+    box-sizing: border-box; /* Incluir el relleno dentro del ancho del campo */
+    font-family: Arial, sans-serif; /* Fuente para los campos de texto */
+    transition: border-color 0.3s ease; /* Transición suave para el color del borde */
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #007bff; /* Color azul del borde al enfocar un campo */
+    outline: none; /* Eliminar el contorno por defecto al enfocar */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 12px 20px; /* Agregar espacio alrededor del texto del botón */
+    border: none; /* Eliminar el borde por defecto del botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambiar el cursor a "pointer" al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+  }

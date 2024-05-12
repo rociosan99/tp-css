@@ -1,0 +1,11 @@
+body{
+    background-color:beige;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+}
+header, footer{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: auto;
+    
+}

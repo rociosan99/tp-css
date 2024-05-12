@@ -1,0 +1,35 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif; /* Cambia la fuente del texto */
+  background-color: lightgrey; /* Cambia el color de fondo */
+  margin: 0;
+  line-height: 1.6; /* Espaciado entre líneas */
+}
+
+header {
+  background-color: gray; /* Cambia el color de fondo del encabezado */
+  color: white; /* Cambia el color del texto del encabezado */
+  text-align:right;
+  padding: 20px;
+
+}
+
+footer {
+  background-color: gray; /* Cambia el color de fondo del encabezado */
+  padding: 20px;
+}
+
+/* Estilos para los títulos */
+h1, h2 {
+  font-size:20px; /* Cambia el tamaño de los títulos */
+  font-weight: bold; /* Cambia el peso de los títulos */
+  text-align: center;
+  margin-bottom: 20px; /* Espacio inferior entre títulos */
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 15 px; /* Cambia el tamaño del texto */
+  color: black; /* Cambia el color del texto */
+  text-align: justify; /* Justifica el texto */
+}

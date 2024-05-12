@@ -1,0 +1,27 @@
+/* Estilos para la galería */
+.galeria {
+   display: grid; /* Utiliza CSS Grid para organizar las imágenes en una cuadrícula */
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Establece columnas automáticas con un ancho mínimo de 200px */
+   gap: 50px; /* Agrega espacio entre las imágenes */
+}
+
+/* Estilos para cada imagen */
+.imagen {
+   position: relative; /* Establece la posición relativa para permitir el posicionamiento absoluto de la descripción */
+}
+
+/* Estilos para las imágenes */
+.imagen img {
+   width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+   display: block; /* Asegura que la imagen sea un elemento de bloque */
+   border-radius: 8px; /* Agrega bordes redondeados a las imágenes */
+}
+
+/* Estilos para las descripciones de los postres */
+.descripcion {
+   position:sticky; /* Posiciona las descripciones encima de las imágenes */
+   background-color:lightblue; /* Establece un fondo semi-transparente negro para las descripciones */
+   color:black; /* Configura el color del texto como blanco */
+   padding: 10px; /* Agrega espacio alrededor del texto */
+   margin: 0; /* Elimina cualquier margen que pueda tener el párrafo */
+}

@@ -1,0 +1,24 @@
+a {
+    color: #007bff; /* Color de enlace por defecto */
+    text-decoration: none; /* Quitar subrayado por defecto */
+    font-weight: bold; /* Texto en negrita para enlaces */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Color de enlace al pasar el cursor */
+    text-decoration: underline; /* Agregar subrayado al pasar el cursor */
+  }
+  
+  .boton-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-enlace:hover {
+    background-color: #3e8e41;
+  }

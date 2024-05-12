@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightcyan;
+  }
+  
+  header {
+    background-color:#0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .contenido-principal {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton {
+    background-color: #4CAF50; /* Color de fondo inicial */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Para el efecto hover */
+  }
+  
+  .boton:hover {
+    background-color: #3e8e41; /* Color de fondo al pasar el cursor */
+  }
+  
+  .boton-secundario {
+    background-color: #008CBA; /* Color de fondo inicial para botón secundario */
+    margin-left: 20px; /* Espacio entre botones */
+  }
+  
+  .boton-secundario:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor para botón secundario */
+  }
